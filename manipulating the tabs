@@ -1,0 +1,37 @@
+1---- OPEN ONE TAB ON TERMINAL
+
+      vim file_name1.type
+
+2---- CHANGE TO OTHER TAB WHEN EDITING
+
+      :e file_name.type
+
+3---- SPLIT SCREENS
+
+  Use the command line with the insert mode off:
+      Horizontal split:
+          :sp file_name.type 
+      Vertical split:
+          :vsp file_name.type
+
+          OBJ: sp = split
+
+4---- CHANGING BETWEEN TABS
+
+  To switch between the tabs use the shortcut:
+      ctrl+w + direction
+
+direction = h(left), j(down), k(up) or l(right)
+
+5---- CLOSING TABS
+  :q --> just close (quit)
+  :wq -->> save and quit (write and quit)
+  :qa --> quit all
+  :wqa --> write and quit all
+
+6---- CHANGING BETWEEN DIFFERENTS TABS(NOT IN SPLIT SCREEN)
+  use :ls to see all the tabs numbers
+  
+  :b tab_number
+  :bn --> next tab
+  :bp --> previous tab
